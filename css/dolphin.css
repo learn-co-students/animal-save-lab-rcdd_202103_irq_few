@@ -14,9 +14,20 @@ html {
 
 #dolphin {
   position: absolute;
-  top: 400px;
+  top: 50px;
   right: 0;
 }
 
 /* Write your solution here */
 
+@media only screen and (min-width: 1090px){
+  #dolphin{
+    top: 400px;
+  }
+}
+
+@media only screen and (max-width: 642px){
+  #dolphin{
+    top: 400px;
+  }
+}
